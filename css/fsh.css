@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#ocean {
+    min-height: 100%; 
+}
+
+@keyframes spawnFsh {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.fsh{
+    animation-name: spawnFsh;
+    animation-duration: 1s;
+}
+
